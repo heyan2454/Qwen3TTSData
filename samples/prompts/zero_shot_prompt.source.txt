@@ -1,0 +1,1 @@
+prompt 来源：CosyVoice 官方 zero_shot_prompt（自存拷贝，sha 见 MANIFEST；借用理由见 ../../Qwen3TTS/AI_SESSION_ENTRY.md）

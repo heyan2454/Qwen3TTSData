@@ -1,0 +1,28 @@
+{
+  "outdir": "/home/hyan/TTS/Qwen3TTSData/outputs/smoke_20261010_055655",
+  "params": {
+    "dtype": "bfloat16",
+    "attn_implementation": "sdpa",
+    "language": "Chinese"
+  },
+  "modes": {
+    "custom_voice": {
+      "seconds": 6.64,
+      "sample_rate": 24000,
+      "wall_seconds": 168.699,
+      "rtf": 25.4064,
+      "speaker": "Vivian",
+      "file": "output_custom_voice.wav"
+    },
+    "voice_clone": {
+      "seconds": 5.6,
+      "sample_rate": 24000,
+      "wall_seconds": 116.393,
+      "rtf": 20.7844,
+      "ref_audio": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav",
+      "ref_text": "希望你以后能够做的比我还好呦。",
+      "file": "output_voice_clone.wav"
+    }
+  },
+  "torch": "2.14.1+cu130"
+}
