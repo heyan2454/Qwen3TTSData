@@ -1,0 +1,25 @@
+{
+  "run": "clone_sampling_Base_20261011_143420",
+  "group_key": "temperature",
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "x|0.6": {
+      "n": 32,
+      "mean_cer": 0.1406,
+      "mean_sim": 0.6976
+    },
+    "x|0.8": {
+      "n": 32,
+      "mean_cer": 0.1383,
+      "mean_sim": 0.7018
+    },
+    "x|1.0": {
+      "n": 32,
+      "mean_cer": 0.5173,
+      "mean_sim": 0.6848
+    }
+  }
+}

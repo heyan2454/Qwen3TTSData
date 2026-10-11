@@ -1,0 +1,29 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "full_ref": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav",
+  "full_ref_text": "开放时间早上9点至下午5点。",
+  "conds": [
+    [
+      20,
+      "white"
+    ]
+  ],
+  "babble_source": "/home/hyan/ASR/ParaformerData/datasets/hotword_pilot_v2/wav (control+其他句混合)",
+  "texts": [
+    {
+      "id": "t1",
+      "language": "Chinese",
+      "text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"
+    },
+    {
+      "id": "t2",
+      "language": "Chinese",
+      "text": "你真的确定这次会议由王总监主持吗？"
+    }
+  ],
+  "arms": [
+    "x_vector_only",
+    "icl_full"
+  ],
+  "noise_seed": 20261011
+}
