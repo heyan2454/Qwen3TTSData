@@ -1,0 +1,7 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "speaker": "eric",
+  "n": 24,
+  "source": "/home/hyan/ASR/ParaformerData/datasets/hotword_pilot_v2",
+  "batch": 4
+}
