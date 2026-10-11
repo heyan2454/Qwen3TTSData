@@ -1,0 +1,15 @@
+{
+  "run": "cv_speaker_20261011_160730",
+  "group_key": null,
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "cv_native|all": {
+      "n": 8,
+      "mean_cer": 0.1451,
+      "mean_sim": 0.3179
+    }
+  }
+}

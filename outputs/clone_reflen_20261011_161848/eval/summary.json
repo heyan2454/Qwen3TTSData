@@ -1,0 +1,50 @@
+{
+  "run": "clone_reflen_20261011_161848",
+  "group_key": "ref_len",
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "icl_full|1": {
+      "n": 8,
+      "mean_cer": 0.6666,
+      "mean_sim": 0.4372
+    },
+    "icl_full|2": {
+      "n": 8,
+      "mean_cer": 0.508,
+      "mean_sim": 0.7785
+    },
+    "icl_full|3": {
+      "n": 8,
+      "mean_cer": 0.3423,
+      "mean_sim": 0.7571
+    },
+    "icl_full|5": {
+      "n": 8,
+      "mean_cer": 0.1431,
+      "mean_sim": 0.7305
+    },
+    "x_vector_only|1": {
+      "n": 8,
+      "mean_cer": 0.1192,
+      "mean_sim": 0.3568
+    },
+    "x_vector_only|2": {
+      "n": 8,
+      "mean_cer": 0.1218,
+      "mean_sim": 0.653
+    },
+    "x_vector_only|3": {
+      "n": 8,
+      "mean_cer": 0.1417,
+      "mean_sim": 0.6695
+    },
+    "x_vector_only|5": {
+      "n": 8,
+      "mean_cer": 0.1265,
+      "mean_sim": 0.6593
+    }
+  }
+}

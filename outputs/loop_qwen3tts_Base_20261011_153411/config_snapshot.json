@@ -1,0 +1,7 @@
+{
+  "source_manifest": "/home/hyan/ASR/ParaformerData/datasets/hotword_pilot_v2",
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "mode": "icl_full",
+  "ref_full": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav",
+  "n": 76
+}
