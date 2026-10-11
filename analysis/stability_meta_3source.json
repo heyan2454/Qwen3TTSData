@@ -1,0 +1,21 @@
+{
+  "note": "句内跨seed SIM/CER带汇总，三源=五seed0.6B/八seed0.6B/八seed1.7B",
+  "0.6B×5seed×40": {
+    "n_groups": 8,
+    "sim_band_median": 0.0642,
+    "sim_band_p90": 0.6862,
+    "outlier_groups": 1
+  },
+  "0.6B×8seed×64": {
+    "n_groups": 8,
+    "sim_band_median": 0.0787,
+    "sim_band_p90": 0.6862,
+    "outlier_groups": 1
+  },
+  "1.7B×5seed×40": {
+    "n_groups": 8,
+    "sim_band_median": 0.0544,
+    "sim_band_p90": 0.0614,
+    "outlier_groups": 0
+  }
+}

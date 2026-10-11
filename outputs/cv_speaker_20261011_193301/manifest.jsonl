@@ -1,0 +1,32 @@
+{"id": "zh_q1", "group": "control", "target_word": "", "text": "你真的确定这次会议由王总监主持吗？", "file": "wav/cv_zh_q1.wav", "wav": "wav/cv_zh_q1.wav"}
+{"id": "zh_q2", "group": "control", "target_word": "", "text": "这道题的答案难道不是第三种情况吗？", "file": "wav/cv_zh_q2.wav", "wav": "wav/cv_zh_q2.wav"}
+{"id": "zh_ex1", "group": "control", "target_word": "", "text": "天哪，这场雨下得太突然了，路上全湿了！", "file": "wav/cv_zh_ex1.wav", "wav": "wav/cv_zh_ex1.wav"}
+{"id": "zh_ex2", "group": "control", "target_word": "", "text": "太不可思议了，他们居然在四十分钟内完成了部署。", "file": "wav/cv_zh_ex2.wav", "wav": "wav/cv_zh_ex2.wav"}
+{"id": "zh_enum", "group": "control", "target_word": "", "text": "会议室里有白板、投影仪、麦克风和两排长条桌。", "file": "wav/cv_zh_enum.wav", "wav": "wav/cv_zh_enum.wav"}
+{"id": "zh_让步", "group": "control", "target_word": "", "text": "尽管困难重重，团队还是按计划交付了第一批样品。", "file": "wav/cv_zh_让步.wav", "wav": "wav/cv_zh_让步.wav"}
+{"id": "zh_neg", "group": "control", "target_word": "", "text": "我不是不想去，而是实在抽不出这半天的时间。", "file": "wav/cv_zh_neg.wav", "wav": "wav/cv_zh_neg.wav"}
+{"id": "zh_rep", "group": "control", "target_word": "", "text": "请把刚才那句关于报销流程的话再说一遍好吗？", "file": "wav/cv_zh_rep.wav", "wav": "wav/cv_zh_rep.wav"}
+{"id": "zh_num_s", "group": "control", "target_word": "", "text": "这个小区共有十二栋楼，每栋楼四个单元。", "file": "wav/cv_zh_num_s.wav", "wav": "wav/cv_zh_num_s.wav"}
+{"id": "zh_long", "group": "control", "target_word": "", "text": "去年秋天我们在西北考察时，发现了一条几乎被沙子掩埋的古河道。", "file": "wav/cv_zh_long.wav", "wav": "wav/cv_zh_long.wav"}
+{"id": "zh_poem", "group": "control", "target_word": "", "text": "大漠孤烟直，长河落日圆，这两句诗写得极为壮观。", "file": "wav/cv_zh_poem.wav", "wav": "wav/cv_zh_poem.wav"}
+{"id": "zh_talk", "group": "control", "target_word": "", "text": "你要是早点提醒我，我也不会把日期记错了呀。", "file": "wav/cv_zh_talk.wav", "wav": "wav/cv_zh_talk.wav"}
+{"id": "en_p1", "group": "control", "target_word": "", "text": "She explained that the deadline would move to Friday because the client needed more time.", "file": "wav/cv_en_p1.wav", "wav": "wav/cv_en_p1.wav"}
+{"id": "en_p2", "group": "control", "target_word": "", "text": "Could you please send me the invoice for last month's hosting services?", "file": "wav/cv_en_p2.wav", "wav": "wav/cv_en_p2.wav"}
+{"id": "en_p3", "group": "control", "target_word": "", "text": "The experiment failed twice, but the third attempt finally worked as expected.", "file": "wav/cv_en_p3.wav", "wav": "wav/cv_en_p3.wav"}
+{"id": "en_p4", "group": "control", "target_word": "", "text": "There is nothing more frustrating than a printer that only breaks during demos.", "file": "wav/cv_en_p4.wav", "wav": "wav/cv_en_p4.wav"}
+{"id": "en_p5", "group": "control", "target_word": "", "text": "His presentation combined technical depth with genuinely funny anecdotes.", "file": "wav/cv_en_p5.wav", "wav": "wav/cv_en_p5.wav"}
+{"id": "en_p6", "group": "control", "target_word": "", "text": "We should prioritize reliability over raw speed in this release.", "file": "wav/cv_en_p6.wav", "wav": "wav/cv_en_p6.wav"}
+{"id": "en_p7", "group": "control", "target_word": "", "text": "The museum opens at nine thirty and closes at five in the evening.", "file": "wav/cv_en_p7.wav", "wav": "wav/cv_en_p7.wav"}
+{"id": "en_p8", "group": "control", "target_word": "", "text": "Nobody told me the meeting room had been moved to the fourth floor.", "file": "wav/cv_en_p8.wav", "wav": "wav/cv_en_p8.wav"}
+{"id": "n_date", "group": "control", "target_word": "", "text": "会议改到了2026年10月17日下午两点半，请提前十分钟到场。", "file": "wav/cv_n_date.wav", "wav": "wav/cv_n_date.wav"}
+{"id": "n_money", "group": "control", "target_word": "", "text": "这笔经费总额为1,024,500元，分三个季度拨付。", "file": "wav/cv_n_money.wav", "wav": "wav/cv_n_money.wav"}
+{"id": "n_code", "group": "with_target", "target_word": "XJ-90", "text": "故障码是 XJ-90，日志编号 8527，请在工单里登记。", "file": "wav/cv_n_code.wav", "wav": "wav/cv_n_code.wav"}
+{"id": "n_speed", "group": "control", "target_word": "", "text": "测试车辆在高速上一段跑了120公里，平均时速103公里。", "file": "wav/cv_n_speed.wav", "wav": "wav/cv_n_speed.wav"}
+{"id": "n_phone", "group": "control", "target_word": "", "text": "我的新号码是138-0411-7652，你保存一下。", "file": "wav/cv_n_phone.wav", "wav": "wav/cv_n_phone.wav"}
+{"id": "n_ratio", "group": "control", "target_word": "", "text": "通过率的指标是98.6%，误触发率控制在0.3%以内。", "file": "wav/cv_n_ratio.wav", "wav": "wav/cv_n_ratio.wav"}
+{"id": "p_luzhi", "group": "with_target", "target_word": "甪直", "text": "我们周末去了甪直古镇，那里的石桥很有名。", "file": "wav/cv_p_luzhi.wav", "wav": "wav/cv_p_luzhi.wav"}
+{"id": "p_bengbu", "group": "with_target", "target_word": "蚌埠", "text": "高铁经过安徽蚌埠南站时只停了五分钟。", "file": "wav/cv_p_bengbu.wav", "wav": "wav/cv_p_bengbu.wav"}
+{"id": "p_luan", "group": "with_target", "target_word": "六安", "text": "安徽六安的茶谷拉丝绵很有名。", "file": "wav/cv_p_luan.wav", "wav": "wav/cv_p_luan.wav"}
+{"id": "p_huoxiang", "group": "with_target", "target_word": "藿香", "text": "夏天湿气重，妈妈总煮藿香正气水给大家喝。", "file": "wav/cv_p_huoxiang.wav", "wav": "wav/cv_p_huoxiang.wav"}
+{"id": "p_taotie", "group": "with_target", "target_word": "饕餮", "text": "这件青铜器上的饕餮纹饰雕刻得非常精细。", "file": "wav/cv_p_taotie.wav", "wav": "wav/cv_p_taotie.wav"}
+{"id": "p_yuheng", "group": "with_target", "target_word": "昱珩", "text": "项目组新来的工程师叫昱珩，算法能力很强。", "file": "wav/cv_p_yuheng.wav", "wav": "wav/cv_p_yuheng.wav"}
