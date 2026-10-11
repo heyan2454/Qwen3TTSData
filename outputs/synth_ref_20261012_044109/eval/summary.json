@@ -1,0 +1,23 @@
+{
+  "run": "synth_ref_20261012_044109",
+  "group_key": null,
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/outputs/synth_ref_20261012_044109/wav/ref_dylan.wav",
+    "/home/hyan/TTS/Qwen3TTSData/outputs/synth_ref_20261012_044109/wav/ref_serena.wav",
+    "/home/hyan/TTS/Qwen3TTSData/outputs/synth_ref_20261012_044109/wav/ref_sohee.wav",
+    "/home/hyan/TTS/Qwen3TTSData/outputs/synth_ref_20261012_044109/wav/ref_uncle_fu.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "clone_from_cv|all": {
+      "n": 32,
+      "mean_cer": 0.0659,
+      "mean_sim": 0.8069
+    },
+    "cv_ref|all": {
+      "n": 4,
+      "mean_cer": 0.1057,
+      "mean_sim": null
+    }
+  }
+}

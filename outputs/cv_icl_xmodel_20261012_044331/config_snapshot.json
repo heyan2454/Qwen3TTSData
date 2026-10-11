@@ -1,0 +1,10 @@
+{
+  "cv_model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+  "base_model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-1.7B-Base",
+  "spks": [
+    "dylan",
+    "serena",
+    "sohee"
+  ],
+  "ref_text": "开放时间是早上九点到下午五点，节假日照常接待。"
+}

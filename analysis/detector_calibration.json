@@ -1,0 +1,10 @@
+{
+ "rows": 144,
+ "tp": 1,
+ "fp": 1,
+ "fn": 0,
+ "precision": 0.5,
+ "recall": 1.0,
+ "rule": "sim<0.3 AND rms<0.06",
+ "truth": "组内SIM极差>0.3之最低件"
+}

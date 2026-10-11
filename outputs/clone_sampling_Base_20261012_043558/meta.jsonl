@@ -1,0 +1,13 @@
+{"file": "s0.6_0.8_42_t1.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t1", "sample_rate": 24000, "seconds": 6.4, "wall_seconds": 12.98, "intended_text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"}
+{"file": "s0.6_0.8_42_t2.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t2", "sample_rate": 24000, "seconds": 3.36, "wall_seconds": 5.48, "intended_text": "你真的确定这次会议由王总监主持吗？"}
+{"file": "s0.6_0.8_42_t3.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t3", "sample_rate": 24000, "seconds": 6.8, "wall_seconds": 11.0, "intended_text": "大漠孤烟直，长河落日圆，这两句诗写得极为壮观。"}
+{"file": "s0.6_0.8_42_t4.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t4", "sample_rate": 24000, "seconds": 4.24, "wall_seconds": 7.27, "intended_text": "我们周末去了甪直古镇，那里的石桥很有名。"}
+{"file": "s0.6_0.8_42_t5.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t5", "sample_rate": 24000, "seconds": 4.72, "wall_seconds": 7.72, "intended_text": "Could you please send me the invoice for last month's hosting services?"}
+{"file": "s0.6_0.8_42_t6.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t6", "sample_rate": 24000, "seconds": 5.28, "wall_seconds": 9.1, "intended_text": "We should prioritize reliability over raw speed in this release."}
+{"file": "s0.6_0.8_42_t7.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t7", "sample_rate": 24000, "seconds": 5.28, "wall_seconds": 9.37, "intended_text": "这笔经费总额为1,024,500元，分三个季度拨付。"}
+{"file": "s0.6_0.8_42_t8.wav", "temperature": 0.6, "top_p": 0.8, "seed": 42, "id": "t8", "sample_rate": 24000, "seconds": 5.28, "wall_seconds": 9.85, "intended_text": "我的新号码是138-0411-7652，你保存一下。"}
+{"file": "s0.6_0.8_7_t1.wav", "temperature": 0.6, "top_p": 0.8, "seed": 7, "id": "t1", "sample_rate": 24000, "seconds": 6.08, "wall_seconds": 10.35, "intended_text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"}
+{"file": "s0.6_0.8_7_t2.wav", "temperature": 0.6, "top_p": 0.8, "seed": 7, "id": "t2", "sample_rate": 24000, "seconds": 3.52, "wall_seconds": 6.29, "intended_text": "你真的确定这次会议由王总监主持吗？"}
+{"file": "s0.6_0.8_7_t3.wav", "temperature": 0.6, "top_p": 0.8, "seed": 7, "id": "t3", "sample_rate": 24000, "seconds": 6.8, "wall_seconds": 11.61, "intended_text": "大漠孤烟直，长河落日圆，这两句诗写得极为壮观。"}
+{"file": "s0.6_0.8_7_t4.wav", "temperature": 0.6, "top_p": 0.8, "seed": 7, "id": "t4", "sample_rate": 24000, "seconds": 5.12, "wall_seconds": 8.29, "intended_text": "我们周末去了甪直古镇，那里的石桥很有名。"}
+{"file": "s0.6_0.8_7_t5.wav", "temperature": 0.6, "top_p": 0.8, "seed": 7, "id": "t5", "sample_rate": 24000, "seconds": 5.12, "wall_seconds": 9.19, "intended_text": "Could you please send me the invoice for last month's hosting services?"}
