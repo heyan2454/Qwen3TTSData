@@ -1,0 +1,59 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "full_ref": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav",
+  "full_ref_text": "开放时间早上9点至下午5点。",
+  "lens": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "texts": [
+    {
+      "id": "t1",
+      "language": "Chinese",
+      "text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"
+    },
+    {
+      "id": "t2",
+      "language": "Chinese",
+      "text": "你真的确定这次会议由王总监主持吗？"
+    },
+    {
+      "id": "t3",
+      "language": "Chinese",
+      "text": "大漠孤烟直，长河落日圆，这两句诗写得极为壮观。"
+    },
+    {
+      "id": "t4",
+      "language": "Chinese",
+      "text": "我们周末去了甪直古镇，那里的石桥很有名。"
+    },
+    {
+      "id": "t5",
+      "language": "English",
+      "text": "Could you please send me the invoice for last month's hosting services?"
+    },
+    {
+      "id": "t6",
+      "language": "English",
+      "text": "We should prioritize reliability over raw speed in this release."
+    },
+    {
+      "id": "t7",
+      "language": "Chinese",
+      "text": "这笔经费总额为1,024,500元，分三个季度拨付。"
+    },
+    {
+      "id": "t8",
+      "language": "Chinese",
+      "text": "我的新号码是138-0411-7652，你保存一下。"
+    }
+  ],
+  "arms": [
+    "x_vector_only",
+    "icl_full"
+  ],
+  "cut_policy": "前 n 秒硬截无 VAD；SIM 对照完整参考",
+  "dtype": "bfloat16"
+}
