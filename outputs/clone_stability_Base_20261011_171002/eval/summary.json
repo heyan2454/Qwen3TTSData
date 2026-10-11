@@ -1,0 +1,16 @@
+{
+  "run": "clone_stability_Base_20261011_171002",
+  "group_key": null,
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav",
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "icl_full|all": {
+      "n": 40,
+      "mean_cer": 0.1323,
+      "mean_sim": 0.7282
+    }
+  }
+}

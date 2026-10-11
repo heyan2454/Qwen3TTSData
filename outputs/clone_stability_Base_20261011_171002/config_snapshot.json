@@ -1,0 +1,46 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "seeds": [
+    42,
+    7,
+    2026,
+    5,
+    13
+  ],
+  "mode": "icl_full",
+  "refs": [
+    [
+      "R1",
+      "zero_shot_prompt.wav",
+      "zero_shot_prompt.txt"
+    ],
+    [
+      "R2",
+      "ref_zh_5s.wav",
+      "ref_zh_5s.txt"
+    ]
+  ],
+  "texts": [
+    {
+      "id": "t1",
+      "language": "Chinese",
+      "text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"
+    },
+    {
+      "id": "t2",
+      "language": "Chinese",
+      "text": "你真的确定这次会议由王总监主持吗？"
+    },
+    {
+      "id": "t4",
+      "language": "Chinese",
+      "text": "我们周末去了甪直古镇，那里的石桥很有名。"
+    },
+    {
+      "id": "t7",
+      "language": "Chinese",
+      "text": "这笔经费总额为1,024,500元，分三个季度拨付。"
+    }
+  ],
+  "dtype": "bfloat16"
+}
