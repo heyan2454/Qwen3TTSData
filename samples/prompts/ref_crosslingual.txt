@@ -1,0 +1,1 @@
+(上游 CosyVoice 官方 cross_lingual prompt，英文声线；转写未人工核对，作 x_vector_only 臂参考时不需要文本)

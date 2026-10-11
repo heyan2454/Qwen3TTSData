@@ -1,0 +1,100 @@
+{
+  "run": "clone_multiref_20261011_121541",
+  "asr_freeze": "Paraformer-large 整句无热词",
+  "sim_freeze": "CAM++ cos vs 各自参考（sim_cross 给出跨参考迁移读数）",
+  "groups": {
+    "R1_zero_shot|x_vector_only": {
+      "n": 8,
+      "mean_cer": 0.1441,
+      "mean_sim_own": 0.6404,
+      "by_lang": {
+        "zh": {
+          "n": 4,
+          "mean_cer": 0.0403,
+          "mean_sim_own": 0.6396
+        },
+        "en": {
+          "n": 2,
+          "mean_cer": 0.0641,
+          "mean_sim_own": 0.6039
+        },
+        "num": {
+          "n": 2,
+          "mean_cer": 0.4318,
+          "mean_sim_own": 0.6785
+        }
+      }
+    },
+    "R1_zero_shot|icl_full": {
+      "n": 8,
+      "mean_cer": 0.1218,
+      "mean_sim_own": 0.7018,
+      "by_lang": {
+        "zh": {
+          "n": 4,
+          "mean_cer": 0.0278,
+          "mean_sim_own": 0.7275
+        },
+        "en": {
+          "n": 2,
+          "mean_cer": 0.0,
+          "mean_sim_own": 0.6588
+        },
+        "num": {
+          "n": 2,
+          "mean_cer": 0.4318,
+          "mean_sim_own": 0.6934
+        }
+      }
+    },
+    "R2_zh_5s|x_vector_only": {
+      "n": 8,
+      "mean_cer": 0.1429,
+      "mean_sim_own": 0.6293,
+      "by_lang": {
+        "zh": {
+          "n": 4,
+          "mean_cer": 0.0278,
+          "mean_sim_own": 0.6738
+        },
+        "en": {
+          "n": 2,
+          "mean_cer": 0.0616,
+          "mean_sim_own": 0.5592
+        },
+        "num": {
+          "n": 2,
+          "mean_cer": 0.4546,
+          "mean_sim_own": 0.6105
+        }
+      }
+    },
+    "R2_zh_5s|icl_full": {
+      "n": 8,
+      "mean_cer": 0.1298,
+      "mean_sim_own": 0.7257,
+      "by_lang": {
+        "zh": {
+          "n": 4,
+          "mean_cer": 0.0139,
+          "mean_sim_own": 0.7632
+        },
+        "en": {
+          "n": 2,
+          "mean_cer": 0.037,
+          "mean_sim_own": 0.62
+        },
+        "num": {
+          "n": 2,
+          "mean_cer": 0.4546,
+          "mean_sim_own": 0.7565
+        }
+      }
+    }
+  },
+  "icl_minus_xvec_sim": {
+    "R1_zero_shot": 0.0614,
+    "R2_zh_5s": 0.0964
+  },
+  "note": "en/num 桶含 ITN 书写差虚高（口径同首轮 §三-2）；t4 甪直句联动项目 A"
+}
