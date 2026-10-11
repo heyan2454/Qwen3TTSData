@@ -1,0 +1,16 @@
+{
+  "ref=R1_zero_shot|metric": {
+    "n": 64,
+    "cer_mean": 0.0952,
+    "cer_min": 0.0,
+    "cer_max": 0.6667,
+    "hit_mean": null
+  },
+  "ref=R2_zh_5s|metric": {
+    "n": 64,
+    "cer_mean": 0.0972,
+    "cer_min": 0.0,
+    "cer_max": 0.6667,
+    "hit_mean": null
+  }
+}
