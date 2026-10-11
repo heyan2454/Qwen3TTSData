@@ -1,0 +1,18 @@
+{
+  "run": "clone_abl_20261011_094500",
+  "asr_freeze": "Paraformer-large 整句无热词",
+  "sim_freeze": "CAM++ cosine vs ref prompt",
+  "arms": {
+    "icl_full": {
+      "n": 4,
+      "mean_cer": 0.1496,
+      "mean_sim": 0.7113
+    },
+    "x_vector_only": {
+      "n": 4,
+      "mean_cer": 0.1496,
+      "mean_sim": 0.6428
+    }
+  },
+  "note": "试点小样本（4 文本×2 臂），单 seed 读数，强度受限（AST 预检三件套口径）"
+}

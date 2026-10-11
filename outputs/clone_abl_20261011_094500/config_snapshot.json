@@ -1,0 +1,33 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "ref_wav": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav",
+  "ref_text": "希望你以后能够做的比我还好呦。",
+  "arms": [
+    "x_vector_only",
+    "icl_full"
+  ],
+  "dtype": "bfloat16",
+  "attn_implementation": "sdpa",
+  "texts": [
+    {
+      "id": "zh_news",
+      "language": "Chinese",
+      "text": "据气象台预报，明天白天多云转晴，最高气温二十六度。"
+    },
+    {
+      "id": "zh_dialog",
+      "language": "Chinese",
+      "text": "这件事我早有准备，你别替我担心。"
+    },
+    {
+      "id": "en_read",
+      "language": "English",
+      "text": "The quick brown fox jumps over the lazy dog, and then reads a book."
+    },
+    {
+      "id": "num_mixed",
+      "language": "Chinese",
+      "text": "订单编号 ASN8732 于 3 月 5 日发货，金额 128.6 元。"
+    }
+  ]
+}

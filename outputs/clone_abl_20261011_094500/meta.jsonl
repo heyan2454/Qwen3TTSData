@@ -1,0 +1,8 @@
+{"arm": "x_vector_only", "id": "zh_news", "file": "x_vector_only_zh_news.wav", "sample_rate": 24000, "seconds": 5.2, "wall_seconds": 10.16, "intended_text": "据气象台预报，明天白天多云转晴，最高气温二十六度。", "rtf": 1.9545}
+{"arm": "x_vector_only", "id": "zh_dialog", "file": "x_vector_only_zh_dialog.wav", "sample_rate": 24000, "seconds": 3.36, "wall_seconds": 5.65, "intended_text": "这件事我早有准备，你别替我担心。", "rtf": 1.682}
+{"arm": "x_vector_only", "id": "en_read", "file": "x_vector_only_en_read.wav", "sample_rate": 24000, "seconds": 4.56, "wall_seconds": 7.4, "intended_text": "The quick brown fox jumps over the lazy dog, and then reads a book.", "rtf": 1.6224}
+{"arm": "x_vector_only", "id": "num_mixed", "file": "x_vector_only_num_mixed.wav", "sample_rate": 24000, "seconds": 7.68, "wall_seconds": 12.8, "intended_text": "订单编号 ASN8732 于 3 月 5 日发货，金额 128.6 元。", "rtf": 1.6673}
+{"arm": "icl_full", "id": "zh_news", "file": "icl_full_zh_news.wav", "sample_rate": 24000, "seconds": 5.6, "wall_seconds": 9.07, "intended_text": "据气象台预报，明天白天多云转晴，最高气温二十六度。", "rtf": 1.6196}
+{"arm": "icl_full", "id": "zh_dialog", "file": "icl_full_zh_dialog.wav", "sample_rate": 24000, "seconds": 3.36, "wall_seconds": 5.14, "intended_text": "这件事我早有准备，你别替我担心。", "rtf": 1.5307}
+{"arm": "icl_full", "id": "en_read", "file": "icl_full_en_read.wav", "sample_rate": 24000, "seconds": 5.28, "wall_seconds": 8.07, "intended_text": "The quick brown fox jumps over the lazy dog, and then reads a book.", "rtf": 1.5281}
+{"arm": "icl_full", "id": "num_mixed", "file": "icl_full_num_mixed.wav", "sample_rate": 24000, "seconds": 6.96, "wall_seconds": 10.43, "intended_text": "订单编号 ASN8732 于 3 月 5 日发货，金额 128.6 元。", "rtf": 1.4981}
