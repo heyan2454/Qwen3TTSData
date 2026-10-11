@@ -1,0 +1,184 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-12Hz-0.6B-Base",
+  "refs": [
+    [
+      "R1_zero_shot",
+      "zero_shot_prompt.wav",
+      "zero_shot_prompt.txt"
+    ],
+    [
+      "R2_zh_5s",
+      "ref_zh_5s.wav",
+      "ref_zh_5s.txt"
+    ]
+  ],
+  "arms": [
+    "x_vector_only",
+    "icl_full"
+  ],
+  "texts": [
+    {
+      "id": "zh_q1",
+      "language": "Chinese",
+      "text": "你真的确定这次会议由王总监主持吗？"
+    },
+    {
+      "id": "zh_q2",
+      "language": "Chinese",
+      "text": "这道题的答案难道不是第三种情况吗？"
+    },
+    {
+      "id": "zh_ex1",
+      "language": "Chinese",
+      "text": "天哪，这场雨下得太突然了，路上全湿了！"
+    },
+    {
+      "id": "zh_ex2",
+      "language": "Chinese",
+      "text": "太不可思议了，他们居然在四十分钟内完成了部署。"
+    },
+    {
+      "id": "zh_enum",
+      "language": "Chinese",
+      "text": "会议室里有白板、投影仪、麦克风和两排长条桌。"
+    },
+    {
+      "id": "zh_让步",
+      "language": "Chinese",
+      "text": "尽管困难重重，团队还是按计划交付了第一批样品。"
+    },
+    {
+      "id": "zh_neg",
+      "language": "Chinese",
+      "text": "我不是不想去，而是实在抽不出这半天的时间。"
+    },
+    {
+      "id": "zh_rep",
+      "language": "Chinese",
+      "text": "请把刚才那句关于报销流程的话再说一遍好吗？"
+    },
+    {
+      "id": "zh_num_s",
+      "language": "Chinese",
+      "text": "这个小区共有十二栋楼，每栋楼四个单元。"
+    },
+    {
+      "id": "zh_long",
+      "language": "Chinese",
+      "text": "去年秋天我们在西北考察时，发现了一条几乎被沙子掩埋的古河道。"
+    },
+    {
+      "id": "zh_poem",
+      "language": "Chinese",
+      "text": "大漠孤烟直，长河落日圆，这两句诗写得极为壮观。"
+    },
+    {
+      "id": "zh_talk",
+      "language": "Chinese",
+      "text": "你要是早点提醒我，我也不会把日期记错了呀。"
+    },
+    {
+      "id": "en_p1",
+      "language": "English",
+      "text": "She explained that the deadline would move to Friday because the client needed more time."
+    },
+    {
+      "id": "en_p2",
+      "language": "English",
+      "text": "Could you please send me the invoice for last month's hosting services?"
+    },
+    {
+      "id": "en_p3",
+      "language": "English",
+      "text": "The experiment failed twice, but the third attempt finally worked as expected."
+    },
+    {
+      "id": "en_p4",
+      "language": "English",
+      "text": "There is nothing more frustrating than a printer that only breaks during demos."
+    },
+    {
+      "id": "en_p5",
+      "language": "English",
+      "text": "His presentation combined technical depth with genuinely funny anecdotes."
+    },
+    {
+      "id": "en_p6",
+      "language": "English",
+      "text": "We should prioritize reliability over raw speed in this release."
+    },
+    {
+      "id": "en_p7",
+      "language": "English",
+      "text": "The museum opens at nine thirty and closes at five in the evening."
+    },
+    {
+      "id": "en_p8",
+      "language": "English",
+      "text": "Nobody told me the meeting room had been moved to the fourth floor."
+    },
+    {
+      "id": "n_date",
+      "language": "Chinese",
+      "text": "会议改到了2026年10月17日下午两点半，请提前十分钟到场。"
+    },
+    {
+      "id": "n_money",
+      "language": "Chinese",
+      "text": "这笔经费总额为1,024,500元，分三个季度拨付。"
+    },
+    {
+      "id": "n_code",
+      "language": "Chinese",
+      "text": "故障码是 XJ-90，日志编号 8527，请在工单里登记。"
+    },
+    {
+      "id": "n_speed",
+      "language": "Chinese",
+      "text": "测试车辆在高速上一段跑了120公里，平均时速103公里。"
+    },
+    {
+      "id": "n_phone",
+      "language": "Chinese",
+      "text": "我的新号码是138-0411-7652，你保存一下。"
+    },
+    {
+      "id": "n_ratio",
+      "language": "Chinese",
+      "text": "通过率的指标是98.6%，误触发率控制在0.3%以内。"
+    },
+    {
+      "id": "p_luzhi",
+      "language": "Chinese",
+      "text": "我们周末去了甪直古镇，那里的石桥很有名。"
+    },
+    {
+      "id": "p_bengbu",
+      "language": "Chinese",
+      "text": "高铁经过安徽蚌埠南站时只停了五分钟。"
+    },
+    {
+      "id": "p_luan",
+      "language": "Chinese",
+      "text": "安徽六安的茶谷拉丝绵很有名。"
+    },
+    {
+      "id": "p_huoxiang",
+      "language": "Chinese",
+      "text": "夏天湿气重，妈妈总煮藿香正气水给大家喝。"
+    },
+    {
+      "id": "p_taotie",
+      "language": "Chinese",
+      "text": "这件青铜器上的饕餮纹饰雕刻得非常精细。"
+    },
+    {
+      "id": "p_yuheng",
+      "language": "Chinese",
+      "text": "项目组新来的工程师叫昱珩，算法能力很强。"
+    }
+  ],
+  "dtype": "bfloat16",
+  "attn": "sdpa",
+  "note": "ref_en_5s 因 ICL 需准确转写而搁置待人工核对"
+}
