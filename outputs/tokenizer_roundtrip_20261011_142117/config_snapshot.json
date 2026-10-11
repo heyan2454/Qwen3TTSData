@@ -1,0 +1,5 @@
+{
+  "tokenizer": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen3-TTS-Tokenizer-12Hz",
+  "inputs": "/home/hyan/ASR/ParaformerData/datasets/hotword_pilot_v2",
+  "n": 76
+}
