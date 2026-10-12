@@ -1,0 +1,6 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen2.5-Omni-7B",
+  "DS": "/home/hyan/ASR/ParaformerData/datasets/hotword_pilot_v3",
+  "arm": "dyn5",
+  "ref_bare": "J77 run 复用"
+}

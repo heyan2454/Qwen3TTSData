@@ -1,0 +1,8 @@
+{
+ "n": 120,
+ "acc_order0": 0.875,
+ "acc_order1": 0.267,
+ "both_correct_consistent": 0.258,
+ "compare_textonly_order0": 0.942,
+ "verdict": "若两序一致率大幅低于文本版或≈50%→文本版赢在正字法非声学理解；若仍>90%→audio-conditioned 真裁决成立"
+}

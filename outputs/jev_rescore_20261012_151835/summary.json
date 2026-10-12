@@ -1,0 +1,8 @@
+{
+ "n": 120,
+ "scorer_repair_rate": 0.508,
+ "listwise_order0_acc": 0.942,
+ "listwise_order1_acc": 1.0,
+ "listwise_consistent": 0.942,
+ "mean_score_seconds": 0.06
+}

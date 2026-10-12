@@ -1,0 +1,7 @@
+{
+ "triggered": 127,
+ "fixed": 40,
+ "fix_rate_on_pool": 0.315,
+ "ctrl_falsefix_40utt": 0,
+ "note": "fix_rate=触发池内改善命中(未计 CER 变化,后续与 harness 串联出终读数)"
+}

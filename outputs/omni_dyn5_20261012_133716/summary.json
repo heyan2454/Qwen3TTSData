@@ -1,0 +1,10 @@
+{
+ "arms": {
+  "dyn5": {
+   "wt_cer": 0.0693,
+   "wt_hit": 0.929,
+   "ctrl_pollute_hits": 0,
+   "ctrl_n": 30
+  }
+ }
+}
