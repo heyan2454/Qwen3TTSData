@@ -1,0 +1,10 @@
+{
+ "n_passes": 32,
+ "n_pieces": 1024,
+ "rss_start": 2320.6,
+ "rss_end": 2344.1,
+ "rss_max": 2344.1,
+ "pass_seconds_median": 94.6,
+ "total_wall_seconds": 3033.7,
+ "verdict": "1.7B 零退化零失败零泄漏；与0.6B版(1退化/2048)对照:规模未增退化率,数字长句风险与模型规模无关(采样尾部属性)"
+}

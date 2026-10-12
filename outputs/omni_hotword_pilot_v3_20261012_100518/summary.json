@@ -1,0 +1,15 @@
+{
+  "run_id": "omni_hotword_pilot_v3_20261012_100518",
+  "arms": {
+    "bare": {
+      "wt_cer": 0.0639,
+      "wt_hit": 0.6287,
+      "mean_rtf": 0.084
+    },
+    "hw_instruction": {
+      "wt_cer": 0.1563,
+      "wt_hit": 0.8077,
+      "mean_rtf": 0.097
+    }
+  }
+}
