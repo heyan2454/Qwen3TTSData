@@ -1,0 +1,4 @@
+{"file": "p00_zh_q1.wav", "id": "zh_q1", "pass": 0, "arm": "icl_full", "seconds": 8.8, "intended_text": "你真的确定这次会议由王总监主持吗？", "ref_full": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"}
+{"file": "p00_zh_q2.wav", "id": "zh_q2", "pass": 0, "arm": "icl_full", "seconds": 14.0, "intended_text": "这道题的答案难道不是第三种情况吗？", "ref_full": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"}
+{"file": "p00_zh_ex1.wav", "id": "zh_ex1", "pass": 0, "arm": "icl_full", "seconds": 14.0, "intended_text": "天哪，这场雨下得太突然了，路上全湿了！", "ref_full": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"}
+{"file": "p00_zh_ex2.wav", "id": "zh_ex2", "pass": 0, "arm": "icl_full", "seconds": 23.36, "intended_text": "太不可思议了，他们居然在四十分钟内完成了部署。", "ref_full": "/home/hyan/TTS/Qwen3TTSData/samples/prompts/zero_shot_prompt.wav"}

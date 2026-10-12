@@ -1,0 +1,10 @@
+{
+ "n_passes": 64,
+ "n_pieces": 2048,
+ "rss_start": 2277.5,
+ "rss_end": 2377.6,
+ "rss_max": 2377.6,
+ "pass_seconds_median": 111.5,
+ "total_wall_seconds": 7404.1,
+ "verdict": "无内存增长/无吞吐衰减/1批退化超时(300s防线捕获)"
+}

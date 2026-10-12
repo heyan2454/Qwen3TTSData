@@ -1,0 +1,70 @@
+{
+  "run": "clone_refnoise_Base_20261012_044521",
+  "group_key": "snr",
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/samples/prompts/ref_zh_5s.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "icl_full|babble_10": {
+      "n": 8,
+      "mean_cer": 0.1366,
+      "mean_sim": 0.7101
+    },
+    "icl_full|babble_20": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.7002
+    },
+    "icl_full|babble_5": {
+      "n": 8,
+      "mean_cer": 0.1366,
+      "mean_sim": 0.7072
+    },
+    "icl_full|white_10": {
+      "n": 8,
+      "mean_cer": 0.1409,
+      "mean_sim": 0.6965
+    },
+    "icl_full|white_20": {
+      "n": 8,
+      "mean_cer": 0.1321,
+      "mean_sim": 0.706
+    },
+    "icl_full|white_5": {
+      "n": 8,
+      "mean_cer": 0.1423,
+      "mean_sim": 0.7084
+    },
+    "x_vector_only|babble_10": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.7235
+    },
+    "x_vector_only|babble_20": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.7036
+    },
+    "x_vector_only|babble_5": {
+      "n": 8,
+      "mean_cer": 0.1297,
+      "mean_sim": 0.6993
+    },
+    "x_vector_only|white_10": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.7123
+    },
+    "x_vector_only|white_20": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.6876
+    },
+    "x_vector_only|white_5": {
+      "n": 8,
+      "mean_cer": 0.1275,
+      "mean_sim": 0.6826
+    }
+  }
+}

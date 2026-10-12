@@ -1,0 +1,15 @@
+{
+  "run_id": "omni_smoke_20261012_061159",
+  "arms": {
+    "bare": {
+      "wt_cer": 0.062,
+      "wt_hit": 0.6964,
+      "mean_rtf": 0.126
+    },
+    "hw_instruction": {
+      "wt_cer": 0.0421,
+      "wt_hit": 0.8393,
+      "mean_rtf": 0.135
+    }
+  }
+}

@@ -1,0 +1,390 @@
+{
+ "total_pieces": 2048,
+ "wall_seconds": 7404.4,
+ "health": [
+  {
+   "pass": 0,
+   "rss_mb": 2277.5,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 96.3
+  },
+  {
+   "pass": 1,
+   "rss_mb": 2283.3,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 109.4
+  },
+  {
+   "pass": 2,
+   "rss_mb": 2285.4,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 95.8
+  },
+  {
+   "pass": 3,
+   "rss_mb": 2290.1,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 105.5
+  },
+  {
+   "pass": 4,
+   "rss_mb": 2293.3,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 109.1
+  },
+  {
+   "pass": 5,
+   "rss_mb": 2296.4,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 101.8
+  },
+  {
+   "pass": 6,
+   "rss_mb": 2299.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 98.8
+  },
+  {
+   "pass": 7,
+   "rss_mb": 2300.8,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 103.0
+  },
+  {
+   "pass": 8,
+   "rss_mb": 2304.2,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 113.0
+  },
+  {
+   "pass": 9,
+   "rss_mb": 2305.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 96.6
+  },
+  {
+   "pass": 10,
+   "rss_mb": 2306.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 98.0
+  },
+  {
+   "pass": 11,
+   "rss_mb": 2307.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 103.8
+  },
+  {
+   "pass": 12,
+   "rss_mb": 2308.1,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 103.6
+  },
+  {
+   "pass": 13,
+   "rss_mb": 2308.7,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 97.8
+  },
+  {
+   "pass": 14,
+   "rss_mb": 2310.5,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 100.7
+  },
+  {
+   "pass": 15,
+   "rss_mb": 2311.8,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 99.5
+  },
+  {
+   "pass": 16,
+   "rss_mb": 2314.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 111.5
+  },
+  {
+   "pass": 17,
+   "rss_mb": 2314.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 103.4
+  },
+  {
+   "pass": 18,
+   "rss_mb": 2316.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 118.9
+  },
+  {
+   "pass": 19,
+   "rss_mb": 2318.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 113.4
+  },
+  {
+   "pass": 20,
+   "rss_mb": 2319.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 104.7
+  },
+  {
+   "pass": 21,
+   "rss_mb": 2319.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 114.6
+  },
+  {
+   "pass": 22,
+   "rss_mb": 2320.1,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 121.5
+  },
+  {
+   "pass": 23,
+   "rss_mb": 2320.7,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 109.8
+  },
+  {
+   "pass": 24,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 106.6
+  },
+  {
+   "pass": 25,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 111.4
+  },
+  {
+   "pass": 26,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 114.4
+  },
+  {
+   "pass": 27,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 111.7
+  },
+  {
+   "pass": 28,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 115.8
+  },
+  {
+   "pass": 29,
+   "rss_mb": 2322.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 108.7
+  },
+  {
+   "pass": 30,
+   "rss_mb": 2323.4,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 123.0
+  },
+  {
+   "pass": 31,
+   "rss_mb": 2324.5,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 127.6
+  },
+  {
+   "pass": 32,
+   "rss_mb": 2325.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 115.3
+  },
+  {
+   "pass": 33,
+   "rss_mb": 2325.8,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 117.8
+  },
+  {
+   "pass": 34,
+   "rss_mb": 2326.1,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 115.4
+  },
+  {
+   "pass": 35,
+   "rss_mb": 2326.3,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 116.0
+  },
+  {
+   "pass": 36,
+   "rss_mb": 2326.3,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 111.9
+  },
+  {
+   "pass": 37,
+   "rss_mb": 2376.8,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 401.4
+  },
+  {
+   "pass": 38,
+   "rss_mb": 2376.8,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 108.4
+  },
+  {
+   "pass": 39,
+   "rss_mb": 2377.1,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 119.1
+  },
+  {
+   "pass": 40,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 116.9
+  },
+  {
+   "pass": 41,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 113.2
+  },
+  {
+   "pass": 42,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 110.9
+  },
+  {
+   "pass": 43,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 114.0
+  },
+  {
+   "pass": 44,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 110.7
+  },
+  {
+   "pass": 45,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 102.9
+  },
+  {
+   "pass": 46,
+   "rss_mb": 2377.0,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 112.6
+  },
+  {
+   "pass": 47,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 121.3
+  },
+  {
+   "pass": 48,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 107.1
+  },
+  {
+   "pass": 49,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 119.3
+  },
+  {
+   "pass": 50,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 118.8
+  },
+  {
+   "pass": 51,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 108.2
+  },
+  {
+   "pass": 52,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 110.6
+  },
+  {
+   "pass": 53,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 117.9
+  },
+  {
+   "pass": 54,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 110.8
+  },
+  {
+   "pass": 55,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 110.0
+  },
+  {
+   "pass": 56,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 120.0
+  },
+  {
+   "pass": 57,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 113.6
+  },
+  {
+   "pass": 58,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 108.5
+  },
+  {
+   "pass": 59,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 116.1
+  },
+  {
+   "pass": 60,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 129.5
+  },
+  {
+   "pass": 61,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 116.2
+  },
+  {
+   "pass": 62,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 109.8
+  },
+  {
+   "pass": 63,
+   "rss_mb": 2377.6,
+   "cuda_alloc_mb": 2212.6,
+   "pass_seconds": 130.2
+  }
+ ]
+}

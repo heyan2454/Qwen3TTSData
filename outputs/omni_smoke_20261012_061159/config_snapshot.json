@@ -1,0 +1,10 @@
+{
+  "model": "/home/hyan/TTS/Qwen3TTS/pretrained_models/Qwen2.5-Omni-7B",
+  "arms": [
+    "bare",
+    "hw_instruction"
+  ],
+  "hw_sample": "甪直 噶尔丹 藿香 饕餮 单县 六安 万俟卨 昱珩 蚌埠 亳州 大禹渡 歙县 犍为 铅山 峄山 台儿庄 阮 郫县豆瓣 檵木 彧 联想 海尔 蔚来 理想汽车 比亚迪 台积电 拼多多 字节跳动 老干妈 王老吉 海底捞 蜜雪冰城 周杰伦 刘德华 王菲 林俊杰 邓紫棋 ASN_8732 XJ-90 5G-A T20芯片 GPU_H20 A320neo 505次 G20峰会 U2侦察机 B787 H265编码 1024GB硬盘 4K_60帧 RTX_5090 PIN_6829",
+  "n": 76,
+  "note": "v2 76句；instruction 臂提示'注意这些词的正确写法'"
+}

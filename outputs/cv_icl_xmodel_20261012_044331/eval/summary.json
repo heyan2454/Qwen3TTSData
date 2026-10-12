@@ -1,0 +1,22 @@
+{
+  "run": "cv_icl_xmodel_20261012_044331",
+  "group_key": null,
+  "refs": [
+    "/home/hyan/TTS/Qwen3TTSData/outputs/cv_icl_xmodel_20261012_044331/wav/refA_dylan.wav",
+    "/home/hyan/TTS/Qwen3TTSData/outputs/cv_icl_xmodel_20261012_044331/wav/refA_serena.wav",
+    "/home/hyan/TTS/Qwen3TTSData/outputs/cv_icl_xmodel_20261012_044331/wav/refA_sohee.wav"
+  ],
+  "asr_freeze": "Paraformer-large 整句",
+  "arms": {
+    "cv06_ref|all": {
+      "n": 3,
+      "mean_cer": 0.0,
+      "mean_sim": null
+    },
+    "xmodel_clone|all": {
+      "n": 24,
+      "mean_cer": 0.0024,
+      "mean_sim": 0.8669
+    }
+  }
+}
