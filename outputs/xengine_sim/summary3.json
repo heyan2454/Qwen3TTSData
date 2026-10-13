@@ -2,7 +2,7 @@
  "n": {
   "real": 20,
   "q3": 12,
-  "cv2": 0
+  "cv2": 12
  },
  "to_ref": {
   "real_holdout": {
@@ -15,11 +15,15 @@
    "min": 0.6477,
    "std": 0.0367
   },
-  "cv2_synth": null
+  "cv2_synth": {
+   "mean": 0.79,
+   "min": 0.7382,
+   "std": 0.0286
+  }
  },
- "cross_engine_q3vscv2": null,
+ "cross_engine_q3vscv2": 0.7234,
  "q3_intra_spread": 0.0456,
- "cv2_intra_spread": null,
+ "cv2_intra_spread": 0.0329,
  "variance_thesis": "方差说部分成立:真人云下探到合成均值附近,需看 spread 细分",
- "verdict": "读数不全,补跑"
+ "verdict": "引擎专属说:0.7 是 Qwen3 合成签名,非合成语言律"
 }
