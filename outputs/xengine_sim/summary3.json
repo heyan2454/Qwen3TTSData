@@ -1,0 +1,25 @@
+{
+ "n": {
+  "real": 20,
+  "q3": 12,
+  "cv2": 0
+ },
+ "to_ref": {
+  "real_holdout": {
+   "mean": 0.7713,
+   "min": 0.7009,
+   "std": 0.0334
+  },
+  "q3_synth": {
+   "mean": 0.715,
+   "min": 0.6477,
+   "std": 0.0367
+  },
+  "cv2_synth": null
+ },
+ "cross_engine_q3vscv2": null,
+ "q3_intra_spread": 0.0456,
+ "cv2_intra_spread": null,
+ "variance_thesis": "方差说部分成立:真人云下探到合成均值附近,需看 spread 细分",
+ "verdict": "读数不全,补跑"
+}
