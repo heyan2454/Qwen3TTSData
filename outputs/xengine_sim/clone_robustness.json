@@ -1,0 +1,44 @@
+{
+ "beds": [
+  "/root/autodl-tmp/AST_storage/Speech/noise/ESC-50-master/audio/1-17367-A-10.wav",
+  "/root/autodl-tmp/AST_storage/Speech/noise/ESC-50-master/audio/1-28135-A-11.wav",
+  "/root/autodl-tmp/AST_storage/Speech/noise/ESC-50-master/audio/1-100210-A-36.wav",
+  "/root/autodl-tmp/AST_storage/Speech/noise/ESC-50-master/audio/1-17124-A-43.wav"
+ ],
+ "engines": {
+  "q3": {
+   "clean": {
+    "cer": 0.0,
+    "sim_to_clean": 1.0,
+    "n": 12
+   },
+   "15": {
+    "cer": 0.0,
+    "sim_to_clean": 0.9181,
+    "n": 12
+   },
+   "5": {
+    "cer": 0.0,
+    "sim_to_clean": 0.8086,
+    "n": 12
+   }
+  },
+  "cv2": {
+   "clean": {
+    "cer": 0.0,
+    "sim_to_clean": 1.0,
+    "n": 12
+   },
+   "15": {
+    "cer": 0.0,
+    "sim_to_clean": 0.9098,
+    "n": 12
+   },
+   "5": {
+    "cer": 0.0,
+    "sim_to_clean": 0.809,
+    "n": 12
+   }
+  }
+ }
+}
