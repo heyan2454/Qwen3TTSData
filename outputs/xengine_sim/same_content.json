@@ -1,0 +1,17 @@
+{
+ "same_content_synth_vs_real": {
+  "n": 20,
+  "mean": 0.7412,
+  "min": 0.6901,
+  "std": 0.0378
+ },
+ "cross_content_synth_vs_ref": {
+  "n": 329,
+  "mean": 0.7685
+ },
+ "cross_content_real_vs_ref": {
+  "n": 60,
+  "mean": 0.7896,
+  "min": 0.6753
+ }
+}
