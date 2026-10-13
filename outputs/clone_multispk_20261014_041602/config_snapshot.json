@@ -1,0 +1,11 @@
+{
+  "model": "/root/autodl-tmp/AST_storage/Speech/models/Qwen3-TTS-12Hz-0.6B-Base",
+  "manifest": "/home/hyan/TTS/Qwen3TTSData/docs/sessions/20261014_multispeaker_icl/manifest.json",
+  "dtype": "bfloat16",
+  "attn_implementation": "sdpa",
+  "n_speakers": 8,
+  "mode": "icl_full",
+  "clone_mode": "generate_voice_clone",
+  "language": "Chinese",
+  "x_vector_only_mode": false
+}

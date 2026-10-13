@@ -1,0 +1,88 @@
+{
+  "run": "clone_multispk_20261014_041602",
+  "asr_freeze": "Paraformer-large 整句无热词",
+  "sim_freeze": "CAM++ cosine vs 同人参考",
+  "hit_threshold_sim": 0.5,
+  "dropout_rule": "sim<0.3 & rms<0.06",
+  "overall": {
+    "n": 64,
+    "mean_cer": 0.0242,
+    "mean_sim": 0.7818,
+    "hit_rate": 1.0,
+    "dropout_n": 0
+  },
+  "by_speaker": {
+    "S0764": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.7739,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0765": {
+      "n": 8,
+      "mean_cer": 0.0104,
+      "mean_sim": 0.7662,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0766": {
+      "n": 8,
+      "mean_cer": 0.0156,
+      "mean_sim": 0.7703,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0767": {
+      "n": 8,
+      "mean_cer": 0.1053,
+      "mean_sim": 0.8411,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0768": {
+      "n": 8,
+      "mean_cer": 0.0278,
+      "mean_sim": 0.776,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0769": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.7793,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0770": {
+      "n": 8,
+      "mean_cer": 0.023,
+      "mean_sim": 0.7261,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0908": {
+      "n": 8,
+      "mean_cer": 0.0119,
+      "mean_sim": 0.8213,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    }
+  },
+  "by_bucket": {
+    "mid_16_30": {
+      "n": 32,
+      "mean_cer": 0.0275,
+      "mean_sim": 0.7832,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "short_le15": {
+      "n": 32,
+      "mean_cer": 0.021,
+      "mean_sim": 0.7803,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    }
+  }
+}
