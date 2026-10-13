@@ -264,3 +264,28 @@ CV(1.7B-CustomVoice) 四声线各合成 6.2s 参考（转写已知）→ Base-0.
 4. **失败模式（句型层）**：CER 总 0.024、几乎全对；8 句 CER>0.1 集中在三类——(a) 专名/人名同音字（"今久→金九"×5、"陆骑麟→陆吉林"×1：模型读对、识别端写错同音字，§三-2/§五同源口径）；(b) AISHELL 转写笔误（"分险→风险""渠势→趋势"：gt 错、模型对，口径虚高）；(c) ≥21 字长句轻微掉字/重复（S0770 W0132、S0908 W0126、S0767 W0140，无整句崩溃）。音色侧仅 1 件低能尾件（S0768 W0145「五环内商品住宅的成交在市场中并非主流」sim=0.536 且 rms=0.0052≈该人 41%，轻掉音未全塌），**0 真掉音**——与 §16 掉音率 ~1.6% 量级一致且更轻。
 
 **口径声明**：①SIM 仍为 CAM++ 同源度量（§10 负控制已证无合成偏置，绝对值可信但非 EER 类）；②专名句 CER 是识别端同音字偏差（非朗读错），AISHELL 个别转写笔误使 CER 微虚高；③单 seed、n=8/话者，话者间 range 0.115 的部分贡献可能来自参考长度/质量而非话者本身——只报话者级分布，不判"某话者更优/更差"方向；④§22 跨引擎 0.715 用更短/异质参考，与本 run clean-ref 0.78 不直接比——引擎缺口结论仍以 §22 同参考配对为准。**
+---
+
+## 二十四、LoRA vs 全参小样本说话人微调（J146–J149，S0764 40 句，finetuning/sft_12hz_lora.py）
+
+**问题**（承接 §19 判负与"更接近 LoRA"追问）：40 句全参 SFT 反伤保真（SIM 0.7008 < ICL 0.7685）。换成 LoRA——冻主体、只训文本/LLM 主干 rank-8 低秩增量——能否比全参**更稳、更省、且不更伤保真**？
+
+**设计（单变量）**：数据/损失/保存口径与 §19 全参完全一致（S0764 train 40 句 / ref 1 句 / holdout 329 句、同 train_codes24.jsonl；loss = codec_0 CE + 0.3×sub_talker；保存 = merge LoRA → 烧 codec_embedding[3000] → CustomVoice → generate_custom_voice 评测）。唯一变量 = 训练形态：全参（lr2e-6）vs rank-8 LoRA（target `q/k/v/o/gate/up/down_proj` 于 `talker.model` 主干，lr1e-4，同 6ep）。评测同 §19 终稿口径（CAM++ SIM 对 ref_24k.wav，n=329 同分母；CER 用 SeACo-Paraformer）。
+
+**训练健康**：loss 15.05→7.14 单调降；trainable **8.7M（0.45%** of 1.94B）。**干净控制**：LoRA 与全参的烧写 speaker embedding `codec_embedding[3000]` **逐位相同（diff=0.0**，两者 speaker_encoder 都冻结）——主干差异是唯一变量，SIM 对比纯粹反映"训 1.94B 全参 vs 只训 8.7M rank-8 增量"。
+
+| 形态 | SIM (n=329) | CER | ΔSIM vs ICL |
+| --- | --- | --- | --- |
+| 基线 ICL（1 句参考，免训） | **0.7685** | 0.0119 | — |
+| 全参 6ep | 0.7008 | 0.0111 | −0.068 |
+| **LoRA rank-8 6ep** | **0.6976** | 0.0111 | −0.071 |
+
+**判读（三选一定案：与全参持平，非更差，但都判负于 ICL）**：
+1. **LoRA ≈ 全参**（0.6976 vs 0.7008，Δ−0.0032 ≪ 句间 std 0.039、≈1.5 SE）——LoRA **可行、与全参持平、显著更省（0.45% 参数）**，不构成"更差"；但也**不是"更稳"的改善**（未回到 ICL 水位）。
+2. **小样本 SFT 判负在 LoRA 下不改写**：训练线无论全参还是 LoRA，都到不了"三秒 ICL"上界（−0.07）。数据量（40 句）与训练形态都不是解法。
+3. **§19 解释③（形态/评测锚）升为主因**：LoRA 只动主干低秩增量、speaker 烧写与全参逐位相同，SIM 仍钉在 ~0.70 → **0.70 是 CustomVoice「单烧写嵌入」这一生成形态的地板**，不是"全参练主干过头"的过拟合病——全参与 LoRA 恰好在同一块地板上重合（与 §一 x_vector_only 0.64–0.65 同族，略高因烧写嵌入经 speaker_encoder 而非偷懒向量）。**回答用户：LoRA 不是解法——伤保真的不是"训了主体权重"，而是 CustomVoice 形态本身丢了 ICL 的参考语音逐 token 条件。**
+4. **内容一致**：CER 0.0111 与全参完全相等、与 ICL 0.0119 同带——小样本微调对文字正确性零损伤（§一结论2 重现）。
+
+**案底（2 坑，均一次定位修复，未触发"连续 2 次定位不清"止损）**：①peft `get_peft_model` 只冻被包的 talker.model，外层 code_predictor/codec_head/文本投影/speaker_encoder 仍可训 → 首冒烟 trainable=210M(10.9%)，改「全冻+只开 lora_」后 8.7M(0.45%)；②copytree `ignore_patterns("model.safetensors")` 误删 `speech_tokenizer/model.safetensors`(682M) → tokenizer 加载崩，改只忽略顶层权重。另弃 accelerate 后需逐张量手动 `.to(device)`。
+
+**口径声明**：单 seed（同 §19）；LoRA lr1e-4 ≠ 全参 2e-6，训练 loss 绝对值（7.14 vs 11.07）不可比、只看 SIM/CER；LoRA 权重与 329 件样音落数据盘 `/root/autodl-tmp/AST_storage/Speech/derived/spk_ft/{out_s0764_lora,lora_eval_out}`（批量长音频不进仓），数值唯一来源 `lora_eval_out/summary.json`（本 session 留档 `lora_eval_summary.json`）。
