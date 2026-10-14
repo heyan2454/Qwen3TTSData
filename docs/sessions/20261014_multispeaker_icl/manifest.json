@@ -1,5 +1,5 @@
 {
-  "created": "20261014_041210",
+  "created": "20261014_182649",
   "sources": {
     "wav_root": "/root/autodl-tmp/AISHELL-1/data_aishell/wav/test",
     "transcript": "/root/autodl-tmp/AISHELL-1/data_aishell/transcript/aishell_transcript_v0.8.txt"
@@ -482,6 +482,126 @@
           "text": "并对异地缴存住房公积金等政策作出调整",
           "seconds": 6.558,
           "nchar": 18
+        }
+      ]
+    },
+    {
+      "speaker": "S0912",
+      "ref": {
+        "utt_id": "BAC009S0912W0122",
+        "text": "东地产财经周刊新一年度审计工作报告出炉",
+        "seconds": 6.5,
+        "wav": "samples/prompts/aishell_ref/S0912_ref.wav",
+        "txt": "samples/prompts/aishell_ref/S0912_ref.txt"
+      },
+      "targets": [
+        {
+          "utt_id": "BAC009S0912W0121",
+          "text": "房地产相关领域问题频发",
+          "seconds": 3.965,
+          "nchar": 11
+        },
+        {
+          "utt_id": "BAC009S0912W0123",
+          "text": "审计署审计长刘家义受国务院委托",
+          "seconds": 5.577,
+          "nchar": 15
+        },
+        {
+          "utt_id": "BAC009S0912W0124",
+          "text": "土地相关的审查成为重点之一",
+          "seconds": 4.267,
+          "nchar": 13
+        },
+        {
+          "utt_id": "BAC009S0912W0125",
+          "text": "刘家义在报告中指出",
+          "seconds": 3.352,
+          "nchar": 9
+        },
+        {
+          "utt_id": "BAC009S0912W0131",
+          "text": "为经济社会发展提供了重要基础和支持",
+          "seconds": 5.37,
+          "nchar": 17
+        },
+        {
+          "utt_id": "BAC009S0912W0135",
+          "text": "编造虚假资料等套取或骗取补偿一亿元",
+          "seconds": 5.593,
+          "nchar": 17
+        },
+        {
+          "utt_id": "BAC009S0912W0136",
+          "text": "一些地方土地出让收支核算不够规范",
+          "seconds": 5.104,
+          "nchar": 16
+        },
+        {
+          "utt_id": "BAC009S0912W0139",
+          "text": "违规以租代征改变规划条件等用地一万公顷",
+          "seconds": 5.881,
+          "nchar": 19
+        }
+      ]
+    },
+    {
+      "speaker": "S0915",
+      "ref": {
+        "utt_id": "BAC009S0915W0122",
+        "text": "这个政策的出台是希望刺激房地产投资",
+        "seconds": 5.866,
+        "wav": "samples/prompts/aishell_ref/S0915_ref.wav",
+        "txt": "samples/prompts/aishell_ref/S0915_ref.txt"
+      },
+      "targets": [
+        {
+          "utt_id": "BAC009S0915W0121",
+          "text": "从房地产的角度来看",
+          "seconds": 2.922,
+          "nchar": 9
+        },
+        {
+          "utt_id": "BAC009S0915W0123",
+          "text": "则是希望防止外资流出",
+          "seconds": 3.5,
+          "nchar": 10
+        },
+        {
+          "utt_id": "BAC009S0915W0125",
+          "text": "今年一到七月全国房地产开发投资五万亿元",
+          "seconds": 5.73,
+          "nchar": 19
+        },
+        {
+          "utt_id": "BAC009S0915W0127",
+          "text": "开发商投资增速处于不断下降的状态",
+          "seconds": 5.384,
+          "nchar": 16
+        },
+        {
+          "utt_id": "BAC009S0915W0131",
+          "text": "境外个人购房依然需要符合当地政策规定",
+          "seconds": 6.08,
+          "nchar": 18
+        },
+        {
+          "utt_id": "BAC009S0915W0132",
+          "text": "境外机构和个人在中国投资购买房地产的限制放松",
+          "seconds": 10.217,
+          "nchar": 22
+        },
+        {
+          "utt_id": "BAC009S0915W0421",
+          "text": "贵州都市报十月二十九日报道据台湾媒体报道艺人陈妍希认爱小四岁的大陆小生陈晓",
+          "seconds": 11.951,
+          "nchar": 37
+        },
+        {
+          "utt_id": "BAC009S0915W0460",
+          "text": "游戏主播花样作死声称天津是他炸的直播被抓游戏室老板因冲突开枪将人射伤致死",
+          "seconds": 13.185,
+          "nchar": 36
         }
       ]
     }

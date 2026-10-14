@@ -1,0 +1,109 @@
+{
+  "run": "clone_multispk_20261014_182734",
+  "asr_freeze": "Paraformer-large 整句无热词",
+  "sim_freeze": "CAM++ cosine vs 同人参考",
+  "hit_threshold_sim": 0.5,
+  "dropout_rule": "sim<0.3 & rms<0.06",
+  "overall": {
+    "n": 80,
+    "mean_cer": 0.0151,
+    "mean_sim": 0.7986,
+    "hit_rate": 1.0,
+    "dropout_n": 0
+  },
+  "by_speaker": {
+    "S0764": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.7833,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0765": {
+      "n": 8,
+      "mean_cer": 0.0104,
+      "mean_sim": 0.7748,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0766": {
+      "n": 8,
+      "mean_cer": 0.0156,
+      "mean_sim": 0.7735,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0767": {
+      "n": 8,
+      "mean_cer": 0.0811,
+      "mean_sim": 0.8629,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0768": {
+      "n": 8,
+      "mean_cer": 0.0208,
+      "mean_sim": 0.8212,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0769": {
+      "n": 8,
+      "mean_cer": 0.0147,
+      "mean_sim": 0.7743,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0770": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.7095,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0908": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.8146,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0912": {
+      "n": 8,
+      "mean_cer": 0.0083,
+      "mean_sim": 0.8377,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "S0915": {
+      "n": 8,
+      "mean_cer": 0.0,
+      "mean_sim": 0.8337,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    }
+  },
+  "by_bucket": {
+    "long_gt30": {
+      "n": 2,
+      "mean_cer": 0.0,
+      "mean_sim": 0.8661,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "mid_16_30": {
+      "n": 40,
+      "mean_cer": 0.0145,
+      "mean_sim": 0.8059,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    },
+    "short_le15": {
+      "n": 38,
+      "mean_cer": 0.0165,
+      "mean_sim": 0.7873,
+      "hit_rate": 1.0,
+      "dropout_n": 0
+    }
+  }
+}

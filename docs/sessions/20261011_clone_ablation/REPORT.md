@@ -289,3 +289,4 @@ CV(1.7B-CustomVoice) 四声线各合成 6.2s 参考（转写已知）→ Base-0.
 **案底（2 坑，均一次定位修复，未触发"连续 2 次定位不清"止损）**：①peft `get_peft_model` 只冻被包的 talker.model，外层 code_predictor/codec_head/文本投影/speaker_encoder 仍可训 → 首冒烟 trainable=210M(10.9%)，改「全冻+只开 lora_」后 8.7M(0.45%)；②copytree `ignore_patterns("model.safetensors")` 误删 `speech_tokenizer/model.safetensors`(682M) → tokenizer 加载崩，改只忽略顶层权重。另弃 accelerate 后需逐张量手动 `.to(device)`。
 
 **口径声明**：单 seed（同 §19）；LoRA lr1e-4 ≠ 全参 2e-6，训练 loss 绝对值（7.14 vs 11.07）不可比、只看 SIM/CER；LoRA 权重与 329 件样音落数据盘 `/root/autodl-tmp/AST_storage/Speech/derived/spk_ft/{out_s0764_lora,lora_eval_out}`（批量长音频不进仓），数值唯一来源 `lora_eval_out/summary.json`（本 session 留档 `lora_eval_summary.json`）。
+**§二十三·补（18:5x）多话者扩到 10/10 test 全量**：补 S0912、S0915 后覆盖 AISHELL-1 test **全部 10 人**，10×8=80 件重跑。总体 SIM **0.7986**（原 8 人 0.782↑）、CER 0.0151、hit 100%、0 掉音；SIM 带 0.7095–0.863。新补两人类似高带：S0912 0.838 / S0915 0.834，锚 S0764 0.783。**"三秒克隆跨话者通用"从 8 人升到全 test 域 10/10**，结论更稳。运行 `clone_multispk_20261014_182734`。
